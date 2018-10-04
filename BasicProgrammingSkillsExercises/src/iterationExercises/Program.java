@@ -205,7 +205,7 @@ public class Program {
 //Convert numeric string value to number like "1234" -> 1234
 	 public int _stringToNumber(String str) {
 		  
-     int i= 0, n=0, sign=1;
+     int i= 0, q=0, sign=1;
 		  
 	 if(str.charAt(0) == '-') {
 	 i =1;
@@ -213,11 +213,11 @@ public class Program {
 	 }
 		  
 	 for(; i< str.length(); i++) {
-	 n*=10;
-	 n+= str.charAt(i)-48;
+	 q*=10;
+	 q+= str.charAt(i)-48;
 	 }
 		  
-	 return sign*n;
+	 return sign*q;
 				
 	 }
 	 
