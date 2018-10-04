@@ -61,7 +61,7 @@ public class Program {
 	for(int j =1; j<=n; j++) {
 	System.out.print("*");
 	}
-	System.out.print(System.lineSeparator());
+	System.out.print("\n");
 	}		
 	}
 	
@@ -86,7 +86,7 @@ public class Program {
 	
 	}
 	
-	System.out.print(System.lineSeparator());
+	System.out.print("\n");
 	}
 	} 
 	
@@ -128,7 +128,7 @@ public class Program {
 	}
 	}
 
-	System.out.print(System.lineSeparator());
+	System.out.print("\n");
 	}
     } 
 
@@ -192,7 +192,7 @@ public void _hollowMirroredRightTriangleStarPattern(int n) {
     System.out.print(' ');
     }
     }
-    System.out.print(System.lineSeparator());
+    System.out.print("\n");
     }	
     }
 
@@ -204,7 +204,7 @@ public void _invertedRightTriangleStarPattern(int n) {
     for (int j = 1; j <= i; j++) {
     System.out.print('*');
     }
-    System.out.print(System.lineSeparator());
+    System.out.print("\n");
     }	
     }
 
@@ -224,7 +224,7 @@ public void _hollowInvertedRightTriangleStarPattern(int n) {
     }
     }
     
-    System.out.print(System.lineSeparator());
+    System.out.print("\n");
     }	
     }
 
@@ -269,7 +269,7 @@ public void hollowInvertedMirroredRightTriangleStarPattern(int n) {
     }
 
     // Move to the next line
-    System.out.print(System.lineSeparator());
+    System.out.print("\n");
     }
     }
 
@@ -377,7 +377,7 @@ public void _hollowInvertedPyramidStarPattern(int n){
    }
    }
    // Move to the next line
-   System.out.print(System.lineSeparator());
+   System.out.print("\n");
    }		
    }
 
