@@ -286,24 +286,24 @@ public class Program {
 //Swap first & last digit of a number
 	 public int _swapFirstLastDigitNumber(int x) {
 
-	 String s = Integer.toString(x);
-	 char[] ch = s.toCharArray();
+	 String str = Integer.toString(x);
+	 char[] c = str.toCharArray();
 		    
 			
-	 for(int i =0; i< ch.length; i++) {
+	 for(int i =0; i< c.length; i++) {
 				
-	 int k = i;
+	 int z = i;
 		    
-	 while( i< ch.length) {
+	 while( i< c.length) {
      i ++;	
 	 }
 		    
-	 char temp = ch[k]; 
-	 ch[k] = ch[i - 1]; 
-	 ch[i - 1] = temp;
+	 char temp = c[z]; 
+	 c[z] = c[i - 1]; 
+	 c[i - 1] = temp;
 	 }
 			
-     String num = new String(ch);	
+     String num = new String(c);	
 	 int swapped_number = Integer.parseInt(num);
 	 return swapped_number;
 			
