@@ -79,7 +79,7 @@ public static void main(String[] args) {
 		System.out.println("\n"+"17. The sum of all odd numbers between 1 to N is:"+" "+program.SumOddNums(100));
 		
 		//Swap first & last digit of a number
-		System.out.println("\n"+"18. wapping the first & last digit of a number gives:"+" "+program._swapFirstLastDigitNumber(1234));
+		System.out.println("\n"+"18. Swapping the first & last digit of a number gives:"+" "+program._swapFirstLastDigitNumber(1234));
 		
 		//Check if an alphabet is vowel or consonant
 		System.out.println("\n"+"19. Is the alphabet entered a vowel? "+" "+program._checkIfAnAlphabetIsVowelOrConsonant('p'));

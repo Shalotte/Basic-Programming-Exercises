@@ -299,8 +299,8 @@ public class Program {
 	 }
 		    
 	 char temp = c[z]; 
-	 c[z] = c[i - 1]; 
-	 c[i - 1] = temp;
+	 c[z] = c[c.length-1]; 
+	 c[c.length-1] = temp;
 	 }
 			
      String num = new String(c);	
