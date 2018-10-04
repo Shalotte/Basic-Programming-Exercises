@@ -21,19 +21,19 @@ public class Program {
 	}
 	
 //Find second largest number from an array of numbers
-	public int _findSecondLargestNumberInArray(int[] secondLargestNumber){
+	public int _findSecondLargestNumberInArray(int[] x){
 		
-		int largest = secondLargestNumber[0];
-		int second_lgst = secondLargestNumber[0];
+		int largest = x[0]; 
+		int second_lgst = x[0];
 		
-		for(int i=0; i<secondLargestNumber.length; i++){
-		if(secondLargestNumber[i]>largest){
+		for(int i=0; i<x.length; i++){
+		if(x[i]>largest){
 		second_lgst=largest; 
-		largest=secondLargestNumber[i];
+		largest=x[i];
 		}
 		
-		else if(secondLargestNumber[i]>second_lgst && secondLargestNumber[i] !=largest){
-		second_lgst = secondLargestNumber[i];
+		else if(x[i]>second_lgst && x[i] !=largest){
+		second_lgst = x[i];
 		}}
 		return second_lgst;
 	}
@@ -310,16 +310,16 @@ public class Program {
 	 }
 
 //Check if an alphabet is vowel or consonant
-	public boolean _checkIfAnAlphabetIsVowelOrConsonant(char x) {
+	public String _checkIfAnAlphabetIsVowelOrConsonant(char x) {
 			
 	if( x == 'a' || x == 'A' || x == 'e' || x == 'E' ||
 	x == 'i' ||x == 'I' ||x == 'o' ||x == 'O' ||x == 'u' ||x == 'U') 
 	{
-	return true;	
+	return "This is a vowel.";
 	} 
 	else 
 	{
-	return false;
+	return "This is a consonant.";
 	}
 	}
 	

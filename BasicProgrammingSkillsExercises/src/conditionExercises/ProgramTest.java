@@ -1,5 +1,7 @@
 package conditionExercises;
 
+import java.util.Arrays;
+
 public class ProgramTest {
 	
 public static void main(String args[]) {
@@ -18,10 +20,9 @@ public static void main(String args[]) {
 	//Print numbers from 1 to N, But if the number is multiple of 3 then print "FIZZ" and if the number is 
 	//multiple of 5 then print "BUZZ". But if the number is multiple of both 3 and 5 then print only 
 	//"FIZZBUZZ".
-	System.out.println("4. The fizz-buzz solution when n is 100 is");
-	for(int i=0; i<=100; i++){
-	System.out.println(program._fizzBuzz(i));
-	}
+	int  n= 5;
+	System.out.println("4. The fizz-buzz solution for equals to " +n+" is: ");
+	System.out.println(Arrays.toString(program._fizzBuzz(n)));
 	System.out.println("\n");
 	
 	//Check if a number is negative, positive or zero.

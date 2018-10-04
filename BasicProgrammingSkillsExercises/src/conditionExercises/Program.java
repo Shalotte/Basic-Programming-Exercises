@@ -62,19 +62,25 @@ public class Program{
 //Print numbers from 1 to N, But if the number is multiple of 3 then print "FIZZ" and if 
 //the number is multiple of 5 then print "BUZZ". But if the number is multiple of both 3
 //and 5 then print only "FIZZBUZZ".
-	public String _fizzBuzz(int f){
-		
-		 if (f % 3 == 0 && f % 5 == 0) {
-		 return "FizzBuzz";
-		 } else if (f % 3 == 0) {
-		 return "Fizz";
-		 } else if (f % 5 == 0) {
-		 return "Buzz";
-		 } else {
-		 return String.valueOf(f);
+	public String[] _fizzBuzz(int f){
+		  
+		  
+		String[] x = new String[f];
+  for(int i=0; i<f; i++){
+		 if (i % 3 == 0 && i % 5 == 0) {
+		x[i] = "FizzBuzz";
+		 } else if (i % 3 == 0) {
+		 x[i] = "Fizz";
+		 } else if (i % 5 == 0) {
+		x[i]= "Buzz";
+		 } 
+    else {
+		 x[i]= String.valueOf(i);
 		 }
 		   	    
 	}
+  return x;
+    }
 	
 //Check if a number is negative, positive or zero.
 	public String _checkIfANumberIsPNZ(int g){
