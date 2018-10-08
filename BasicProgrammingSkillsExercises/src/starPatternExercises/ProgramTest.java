@@ -42,6 +42,14 @@ public static void main(String[] args) {
 		System.out.println("Hollow right triangle star pattern");
 		program._hollowRightAnglePattern(5);
 		
+		//Mirrored Right Triangle Star Pattern
+		System.out.println("The mirrored right triangle star pattern is :");
+		program._mirroredRightTriangleStarPattern(5);
+						
+		//Hollow Mirrored Right Triangle Star Pattern
+		System.out.println("Hollow mirrored right triangle star pattern is :");
+		program._hollowMirroredRightTriangleStarPattern(5);
+		
 		//Inverted Right Triangle Star Pattern
 		System.out.println("Inverted right triangle star pattern is :");
 		program._invertedRightTriangleStarPattern(5);
@@ -58,13 +66,8 @@ public static void main(String[] args) {
 		System.out.println("Hollow inverted mirrored right triangle star pattern is :");
 		program.hollowInvertedMirroredRightTriangleStarPattern(5);
 		
-		//Hollow Mirrored Right Triangle Star Pattern
-		System.out.println("Hollow mirrored right triangle star pattern is :");
-		program._hollowMirroredRightTriangleStarPattern(5);
 		
-		//Mirrored Right Triangle Star Pattern
-		System.out.println("The mirrored right triangle star pattern is :");
-		program._mirroredRightTriangleStarPattern(5);
+		
 		
 		//Pyramid Star Pattern
 		System.out.println("Pyramid Star Pattern is :");
